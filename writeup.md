@@ -12,7 +12,9 @@
 
 - Como não havia nada nos metadados e nem no conteúdo do arquivo, resolvi utilizar a ferramenta stegoveritas para observar se havia alguma marca d'água ou algo similar. Encontrei um QRCode e nele havia um link para o pastebin: [https://pastebin.com/Mmyt7GtH](https://pastebin.com/Mmyt7GtH);  
 
-- Esse link dá uma pista de como a flag foi escondida, com um trecho do código. Segue o código:  
+- Esse link dá uma pista de como a flag foi escondida, com um trecho do código. 
+
+- Segue o código:  
 
 ```
 ...  
@@ -32,7 +34,9 @@ for c in hexflag:
   
 - Lembrei da primeira imagem com os pequenos pixels simétricos verde. Agora fez sentido;  
 
-- Criei um script em Python para obter a flag. Segue o código:
+- Criei um script em Python para obter a flag. 
+
+- Segue o código:
   
 ```
 from PIL import Image  
